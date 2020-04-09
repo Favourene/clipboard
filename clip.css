@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bgmob.png");
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:600px){
+    body{
+        background-image: url("bgmobile.png")
+    }
+}
+/*--------header--------*/
+header{
+    height: 100vh;
+    text-align: center;
+    margin-top: 80px;
+}
+.text{
+    margin: 30px;
+}
+#one{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: hsl(210, 10%, 33%);
+}
+#i{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: hsl(201, 11%, 66%);
+}
+button{
+    padding: 10px 40px 10px 40px;
+    margin-right: 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+#op{
+    background: hsl(171, 66%, 44%);
+    color: white
+}
+#po{
+    background: hsl(233, 100%, 69%);
+    color: white;
+}
+/*---------responsiveness for header----------*/
+@media screen and (max-width: 600px){
+    #one{
+        font-size: 35px;
+    }
+    #i{
+        font-size: 15px;
+        color: hsl(201, 11%, 66%);
+    }
+    #game{
+        margin-bottom: 40px;
+    }
+}
+/*----------------First Section----------------------*/
+#hot{
+    text-align: center;
+}
+#two{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+}
+#j{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: hsl(201, 11%, 66%);
+}
+.box img{
+    margin-left: -50px;
+    float: left;
+    height: 500px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: 30px;
+}
+.trip{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.trip h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    color: hsl(210, 10%, 33%);
+}
+.trip p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(201, 11%, 66%);
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+/*-----------Resposiveness for the 1st section-------------*/
+@media screen and (max-width:600px){
+    .box{
+        justify-content: center;
+    }
+    .box img{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .trip{
+        margin-left:0px;
+        text-align: center;
+    }
+    .trip h1{
+        font-size: 28px;
+    }
+    .trip p{
+        font-size: 19px;
+    }
+}
+
+/*-------------------2nd section--------------------*/
+.aces{
+    margin-top: 200px;
+}
+.cold{
+    text-align: center;
+}
+#three{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+}
+#k{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: hsl(201, 11%, 66%);
+}
+#grow{
+    widows: 100%;
+}
+@media screen and (max-width:600px){
+    #grow{
+        width: 300px;
+        height: 300px;
+    }
+}
+/*---------------------3rd section---------------------------------------*/
+.super{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.sup{
+    text-align: center;
+}
+#four{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: hsl(210, 10%, 33%);
+}
+#l{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 19px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: hsl(201, 11%, 66%);
+}
+.boxx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cat{
+    text-align: center;
+    padding-right: 90px;
+    padding-bottom: 30px;    
+}
+.cat img{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 40px;
+}
+.cat h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 28px;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+.cat p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    color: hsl(201, 11%, 66%);
+}
+.imgb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.imgb img{
+    padding-bottom: 30px;
+}
+/* --------------Responsiveness for the 3rd Section---------------------- */
+@media screen and (max-width: 600px){
+    .cat{
+        padding-left: 80px;
+    }
+    .cat h1{
+        font-size: 30px;
+    }
+    .cat p{
+        font-size: 19px;
+    }
+    .imgb{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgb img{
+        width: 150px;
+        height: 70px;
+        padding-bottom: 80px;
+    }
+
+}
+.charge{
+    text-align: center;
+    padding-bottom: 30vh;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    background: hsla(208, 10%, 33%, 0.185);
+}
+.foot img{
+    float: left;
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+ul{
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    list-style-type: none;
+    margin-top: 25px;
+    width: 40%;
+  }
+  li{
+      padding-bottom: 20px;
+  }
+  
+ul li a{
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    color: hsl(171, 66%, 44%);
+}
+.icon  img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.icon img:hover{
+    cursor: pointer;
+    filter: invert(0.3) sepia(1) saturate(8) hue-rotate(147.6deg) brightness(1.14);
+}
+@media screen and (max-width:600px){
+    .foot{
+        justify-content: center;
+    }
+    ul{
+    margin-left: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    width: 100%
+    }
+    ul li a{
+        padding: 5px  0px;
+    }
+    .foot img{
+        margin-left: 0;
+    }
+    .icon img{
+        margin-left: 0;
+        padding-right: 30px;
+    }
+}
